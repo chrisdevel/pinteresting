@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  #get 'pages/home'
+  root "pages#home" #hier wurde die root von localhost 3000 pages home auf localhost gelegt
+  get "about" => "pages#about"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
