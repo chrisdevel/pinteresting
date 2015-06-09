@@ -34,7 +34,7 @@ gem 'bootstrap-sass'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-
+gem 'devise'
 
 #fuer horoku
 
