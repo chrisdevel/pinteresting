@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :pins
+
   devise_for :users
   #get 'pages/home'
   root "pages#home" #hier wurde die root von localhost 3000 pages home auf localhost gelegt
