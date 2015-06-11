@@ -35,6 +35,9 @@ gem 'bootstrap-sass'
 # gem 'capistrano-rails', group: :development
 
 gem 'devise'
+gem 'paperclip', '~> 4.2'
+gem 'nokogiri', '1.6.6.2'
+gem 'aws-sdk', '~> 2.0.48'
 
 #fuer horoku
 
